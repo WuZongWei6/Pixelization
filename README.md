@@ -3,7 +3,7 @@
 
 ## Description
 This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization".
-**(Now only simple version is available, full version and more information will be updated soon.)**
+
 
 ## Prerequisites
 - Linux
