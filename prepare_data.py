@@ -3,11 +3,14 @@ from PIL import Image
 import shutil
 
 
-pixelart_dir = './datasets/TEST_DATA/Example_pixelart'
+pixelart_dir = './examples'
 image_dir = './datasets/TEST_DATA/Input'
 testA_dir = './datasets/TEST_DATA/testA'
 testB_dir = './datasets/TEST_DATA/testB'
-
+if not os.path.exists(testA_dir):
+    os.makedirs(testA_dir)
+if not os.path.exists(testB_dir):
+    os.makedirs(testB_dir)
 def rescale(image, Rescale=True):
     if not Rescale:
         return image
