@@ -27,12 +27,15 @@ Run the following command to train:
 
 `python train.py --gpu_ids 0 --batch_size 2 --preprocess none --dataroot ./datasets/TRAIN_DATA/ --name YOUR_MODEL_NAME`
 
+The checkpoints and logs will be saved in ./checkpoints/YOUR_MODEL_NAME.
 ## Test
 Put test images in ./dataset/TEST_DATA/Input, and run `python prepare_data.py` to prepare data.
 
 Run the following command to test:
 
 `python test.py --gpu_ids 0 --batch_size 1 --preprocess none --num_test 4 --epoch WHICH_EPOCH --dataroot ./datasets/TEST_DATA/ --name YOUR_MODEL_NAME`
+
+The result will be saved in ./result/YOUR_MODEL_NAME.
 
 ## Acknowledgements
 - The code adapted from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SCGAN](https://github.com/makeuptransfer/SCGAN).
