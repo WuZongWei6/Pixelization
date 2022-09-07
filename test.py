@@ -67,3 +67,4 @@ if __name__ == '__main__':
         save_images(webpage, visuals, img_path, aspect_ratio=opt.aspect_ratio, width=opt.display_winsize)
     webpage.save()  # save the HTML
     #plot_xy(model.TsneData, model.TsneLabel, "T-sne visualization for cell size code", opt.epoch)
+    
