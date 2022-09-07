@@ -42,6 +42,9 @@ Run the following command to test:
 
 The result will be saved in ./result/YOUR_MODEL_NAME.
 
+## License
+Software Copyright License for non-commercial scientific research purposes. Please read carefully the terms and conditions in the LICENSE file and any accompanying documentation before you download and/or use the dataset, model and software, (the "Data & Software"), including 3D meshes (body and objects), images, videos, textures, software, scripts, and animations. By downloading and/or using the Data & Software (including downloading, cloning, installing, and any other use of the corresponding github repository), you acknowledge that you have read these terms and conditions, understand them, and agree to be bound by them. If you do not agree with these terms and conditions, you must not download and/or use the Data & Software. Any infringement of the terms of this agreement will automatically terminate your rights under this License.
+
 ## Acknowledgements
 - The code adapted from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SCGAN](https://github.com/makeuptransfer/SCGAN).
 - The dataset is collected from the Internet. Most of the pixel arts are from [eBoyArts](https://www.eboy.com/pool/everything/1).
