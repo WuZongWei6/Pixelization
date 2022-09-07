@@ -7,6 +7,8 @@ pixelart_dir = './examples'
 image_dir = './datasets/TEST_DATA/Input'
 testA_dir = './datasets/TEST_DATA/testA'
 testB_dir = './datasets/TEST_DATA/testB'
+if not os.path.exists(image_dir):
+    os.makedirs(image_dir)
 if not os.path.exists(testA_dir):
     os.makedirs(testA_dir)
 if not os.path.exists(testB_dir):
