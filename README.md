@@ -21,10 +21,18 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 |[AliasNet](https://drive.google.com/file/d/17f2rKnZOpnO9ATwRXgqLz5u5AZsyDvq_/view?usp=sharing) | An encoder-decoder network pretrained on Aliasing dataset.
 
 ## Train
-`python train.py --gpu_ids 0 --batch_size 2 --preprocess none --dataroot DATASET_PATH --name YOUR_MODEL_NAME`
+Download the dataset. Put non-pixel art images in ./datasets/TRAIN_DATA/trainA and put multi-cell pixel arts in ./datasets/TRAIN_DATA/trainB.
+
+Run the following command to train:
+
+`python train.py --gpu_ids 0 --batch_size 2 --preprocess none --dataroot ./datasets/TRAIN_DATA/ --name YOUR_MODEL_NAME`
 
 ## Test
-`python test.py --gpu_ids 0 --batch_size 1 --preprocess none --num_test 4 --epoch WHICH_EPOCH --dataroot DATASET_PATH --name YOUR_MODEL_NAME`
+Put test images in ./dataset/TEST_DATA/Input, and run `python prepare_data.py` to prepare data.
+
+Run the following command to test:
+
+`python test.py --gpu_ids 0 --batch_size 1 --preprocess none --num_test 4 --epoch WHICH_EPOCH --dataroot ./datasets/TEST_DATA/ --name YOUR_MODEL_NAME`
 
 ## Acknowledgements
 - The code adapted from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SCGAN](https://github.com/makeuptransfer/SCGAN).
