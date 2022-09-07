@@ -3,7 +3,7 @@
 
 ## Description
 This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization".
-**(Now only simple version is available, full version and more information will come soon.)**
+**(Now only simple version is available, full version and more information will be updated soon.)**
 
 ## Prerequisites
 - Linux
@@ -17,8 +17,8 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 ## Pretrained Models
 | Path | Description
 | :--- | :----------
-|Structure Extractor | A VGG-19 model pretrained on Multi-cell dataset.
-|AliasNet | An encoder-decoder network pretrained on Aliasing dataset.
+|[Structure Extractor](https://drive.google.com/file/d/1VRYKQOsNlE1w1LXje3yTRU5THN2MGdMM/view?usp=sharing) | A VGG-19 model pretrained on Multi-cell dataset.
+|[AliasNet](https://drive.google.com/file/d/17f2rKnZOpnO9ATwRXgqLz5u5AZsyDvq_/view?usp=sharing) | An encoder-decoder network pretrained on Aliasing dataset.
 
 ## Train
 `python train.py --gpu_ids 0 --batch_size 2 --preprocess none --dataroot DATASET_PATH --name YOUR_MODEL_NAME`
