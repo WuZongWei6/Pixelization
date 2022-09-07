@@ -21,14 +21,19 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 |[AliasNet](https://drive.google.com/file/d/17f2rKnZOpnO9ATwRXgqLz5u5AZsyDvq_/view?usp=sharing) | An encoder-decoder network pretrained on Aliasing dataset.
 
 ## Train
-Download the dataset. Put non-pixel art images in ./datasets/TRAIN_DATA/trainA and put multi-cell pixel arts in ./datasets/TRAIN_DATA/trainB.
+Download the dataset. Create two empty directories ./datasets/TRAIN_DATA/trainA and ./datasets/TRAIN_DATA/trainB.
+
+Put non-pixel art images in ./datasets/TRAIN_DATA/trainA and put multi-cell pixel arts in ./datasets/TRAIN_DATA/trainB.
 
 Run the following command to train:
 
 `python train.py --gpu_ids 0 --batch_size 2 --preprocess none --dataroot ./datasets/TRAIN_DATA/ --name YOUR_MODEL_NAME`
 
 The checkpoints and logs will be saved in ./checkpoints/YOUR_MODEL_NAME.
+
 ## Test
+Create empty directory ./dataset/TEST_DATA/Input.
+
 Put test images in ./dataset/TEST_DATA/Input, and run `python prepare_data.py` to prepare data.
 
 Run the following command to test:
