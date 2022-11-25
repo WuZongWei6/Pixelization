@@ -21,6 +21,8 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 | :--- | :----------
 |[Structure Extractor](https://drive.google.com/file/d/1VRYKQOsNlE1w1LXje3yTRU5THN2MGdMM/view?usp=sharing) | A VGG-19 model pretrained on Multi-cell dataset.
 |[AliasNet](https://drive.google.com/file/d/17f2rKnZOpnO9ATwRXgqLz5u5AZsyDvq_/view?usp=sharing) | An encoder-decoder network pretrained on Aliasing dataset.
+|[I2PNet](https://drive.google.com/file/d/1i_8xL3stbLWNF4kdQJ50ZhnRFhSDh3Az/view?usp=sharing) | I2PNet.
+|[P2INet](https://drive.google.com/file/d/1z9SmQRPoIuBT_18mzclEd1adnFn2t78T/view?usp=sharing) | P2INet.
 
 ## Train
 Download the dataset. Create two empty directories ./datasets/TRAIN_DATA/trainA and ./datasets/TRAIN_DATA/trainB.
