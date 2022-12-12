@@ -2,7 +2,7 @@
 
 
 ## Description
-This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization".
+This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization". Paper can be found at [here](https://www.zhihu.com/question/567003369/answer/2797963707).
 
 ## Video Demo
 Please see our [video demo](https://youtu.be/ElpXLF8nY1c) on YouTube.
