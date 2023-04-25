@@ -9,7 +9,7 @@ Please see our [video demo](https://youtu.be/ElpXLF8nY1c) on YouTube.
 
 ## User Feedback
 <img src=./feedback.jpg />
-See user testing feedback at [here](https://twitter.com/santarh/status/1601251477355663361).
+See user testing feedback at [here](https://twitter.com/santarh/status/1601251477355663361).[video demo](https://youtu.be/ElpXLF8nY1c)
 
 ## Prerequisites
 - Linux
