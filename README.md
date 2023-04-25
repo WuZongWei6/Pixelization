@@ -1,6 +1,5 @@
+# Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization
 <img src=./teaser.jpg />
-## Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization
-
 
 ## Description
 This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization". Paper can be found at [here](https://dl.acm.org/doi/pdf/10.1145/3550454.3555482).
