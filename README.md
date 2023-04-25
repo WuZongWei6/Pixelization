@@ -1,4 +1,4 @@
-<img src=./result.png />
+<img src=./teaser.jpg />
 # Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization
 
 
