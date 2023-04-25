@@ -7,6 +7,10 @@ This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your O
 ## Video Demo
 Please see our [video demo](https://youtu.be/ElpXLF8nY1c) on YouTube.
 
+## User Feedback
+<img src=./feedback.jpg />
+User testing feedback at [twitter](https://twitter.com/santarh/status/1601251477355663361).
+
 ## Prerequisites
 - Linux
 - Python 3
