@@ -4,6 +4,11 @@
 ## Description
 This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization". Paper can be found [here](https://dl.acm.org/doi/pdf/10.1145/3550454.3555482) or downloaded from [here](https://orca.cardiff.ac.uk/id/eprint/152816/).
 
+## Some Results
+<img src=./results/9962.png />
+<img src=./results/9982.png />
+<img src=./results/9844.png />
+
 ## Video Demo
 Please see our [video demo](https://youtu.be/ElpXLF8nY1c) on YouTube.
 
