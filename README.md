@@ -6,9 +6,9 @@ This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your O
 
 ## Some Results
 <img src=./results/9562.png />
+<img src=./results/9844.png />
 <img src=./results/9962.png />
 <img src=./results/9982.png />
-<img src=./results/9844.png />
 ©Tencent, ©Extend Interactive Co., Ltd, © Pablo Hernández and © Bee Square.
 
 
