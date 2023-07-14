@@ -1,4 +1,4 @@
-![image](https://github.com/WuZongWei6/Pixelization/assets/39505862/7b58817f-3a3f-47a8-9224-8cc46d97a31f)# Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization
+# Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization
 <img src=./teaser.jpg />
 
 ## Description
