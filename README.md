@@ -1,4 +1,4 @@
-# Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization(SIGGRAPH Asia 2022)
+# Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization (SIGGRAPH Asia 2022)
 <img src=./teaser.jpg />
 
 ## Description
