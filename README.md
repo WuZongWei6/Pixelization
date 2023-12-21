@@ -65,4 +65,3 @@ Software Copyright License for non-commercial scientific research purposes. Plea
 
 ## Acknowledgements
 - The code adapted from [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [SCGAN](https://github.com/makeuptransfer/SCGAN).
-- The dataset is collected from the Internet. Most of the pixel arts are from [eBoyArts](https://db.eboy.com/pool/everything/1).
