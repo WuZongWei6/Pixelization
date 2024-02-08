@@ -38,7 +38,8 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 
 Please read the License before use. Unauthorized commercial use is prohibited.
 
-使用前请阅读Licence,禁止未经授权的商业使用
+
+使用前请阅读License,禁止未经授权的商业使用
 
 ## Train
 Download the dataset. Create two empty directories ./datasets/TRAIN_DATA/trainA and ./datasets/TRAIN_DATA/trainB.
