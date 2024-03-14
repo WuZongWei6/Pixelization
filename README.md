@@ -4,6 +4,9 @@
 ## Description
 This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization". Paper can be found [here](https://dl.acm.org/doi/pdf/10.1145/3550454.3555482) or downloaded from [here](https://orca.cardiff.ac.uk/id/eprint/152816/).
 
+## ⭐⭐⭐Newest Update⭐⭐⭐
+`Test Pro`: We launch a new pixelization method based on original repository, which can produce pixelization result from 2× to 20×. Please refer to the `Test Pro` section below.👾👾
+
 ## Some Results
 <img src=./results/9562.png />
 <img src=./results/9844.png />
@@ -40,6 +43,17 @@ Please read the License before use. Unauthorized commercial use is prohibited.
 
 
 使用前请阅读License,禁止未经授权的商业使用
+
+## Test Pro
+Create empty directory ./checkpoints/YOUR_MODEL_NAME
+
+Put alias_net.pth and pixelart_vgg19.pth in ./ 
+
+Put 160_net_G_A.pth and 160_net_G_B.pth in ./checkpoints/YOUR_MODEL_NAME 
+
+Create empty directory ./dataset/TEST_DATA/Input
+
+
 
 ## Train
 Create empty directory ./checkpoints/YOUR_MODEL_NAME
