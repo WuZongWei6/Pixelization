@@ -5,7 +5,7 @@
 This is the official implementation of the SIGGRAPH Asia 2022 paper "Make Your Own Sprites: Aliasing-Aware and Cell-Controllable Pixelization". Paper can be found [here](https://dl.acm.org/doi/pdf/10.1145/3550454.3555482) or downloaded from [here](https://orca.cardiff.ac.uk/id/eprint/152816/).
 
 ## ⭐⭐⭐Newest Update⭐⭐⭐
-`Test Pro`: We launch a new pixelization method based on original repository, which can produce pixelization result from 2× to 20×. Please refer to the `Test Pro` section below.👾👾
+`Test Pro`: We launch a new pixelization method based on original repository, which can produce pixelization result from 2× to N× (N could be any integer number). Please refer to the `Test Pro` section below.👾👾
 
 ## Some Results
 <img src=./results/9562.png />
@@ -40,6 +40,7 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 |[P2INet](https://drive.google.com/file/d/1z9SmQRPoIuBT_18mzclEd1adnFn2t78T/view?usp=sharing) | P2INet.
 
 Please read the License before use. Unauthorized commercial use is prohibited.
+
 My email is in my profile.
 
 使用前请阅读License,禁止未经授权的商业使用
