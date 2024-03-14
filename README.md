@@ -42,6 +42,12 @@ Please read the License before use. Unauthorized commercial use is prohibited.
 使用前请阅读License,禁止未经授权的商业使用
 
 ## Train
+Create empty directory ./checkpoints/YOUR_MODEL_NAME
+
+Put alias_net.pth and pixelart_vgg19.pth in ./ 
+
+Put 160_net_G_A.pth and 160_net_G_B.pth in ./checkpoints/YOUR_MODEL_NAME 
+
 Download the dataset. Create two empty directories ./datasets/TRAIN_DATA/trainA and ./datasets/TRAIN_DATA/trainB.
 
 Put non-pixel art images in ./datasets/TRAIN_DATA/trainA and put multi-cell pixel arts in ./datasets/TRAIN_DATA/trainB.
@@ -53,6 +59,12 @@ Run the following command to train:
 The checkpoints and logs will be saved in ./checkpoints/YOUR_MODEL_NAME.
 
 ## Test
+Create empty directory ./checkpoints/YOUR_MODEL_NAME
+
+Put alias_net.pth and pixelart_vgg19.pth in ./ 
+
+Put 160_net_G_A.pth and 160_net_G_B.pth in ./checkpoints/YOUR_MODEL_NAME 
+
 Create empty directory ./dataset/TEST_DATA/Input.
 
 Put test images in ./dataset/TEST_DATA/Input, and run `python prepare_data.py` to prepare data.
