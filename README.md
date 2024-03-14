@@ -40,7 +40,7 @@ The dataset is available at https://drive.google.com/file/d/1YAjcz6lScm-Gd2C5gj3
 |[P2INet](https://drive.google.com/file/d/1z9SmQRPoIuBT_18mzclEd1adnFn2t78T/view?usp=sharing) | P2INet.
 
 Please read the License before use. Unauthorized commercial use is prohibited.
-
+My email is in my profile.
 
 使用前请阅读License,禁止未经授权的商业使用
 
@@ -53,7 +53,13 @@ Put 160_net_G_A.pth and 160_net_G_B.pth in ./checkpoints/YOUR_MODEL_NAME
 
 Create empty directory ./dataset/TEST_DATA/Input
 
+Put test images in ./dataset/TEST_DATA/Input
 
+Run the following command to test:
+
+`python test_pro.py --input ./datasets/TEST_DATA/Input --cell_size 4 --model_name YOUR_MODEL_NAME`
+
+`--input` could be a file or directory.
 
 ## Train
 Create empty directory ./checkpoints/YOUR_MODEL_NAME
