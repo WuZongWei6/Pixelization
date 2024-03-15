@@ -62,6 +62,8 @@ Run the following command to test:
 
 `--input` could be a file or directory.
 
+`--cell_size` could be any integer number.
+
 ## Train
 Create empty directory ./checkpoints/YOUR_MODEL_NAME
 
